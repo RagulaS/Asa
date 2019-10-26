@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <script src="myScript.js"></script>
+</head>
+
+<body>
+  <h2 class="header">He-man !</h2>
+
+  <div class="func">
+    <h3>My first power is... !</h3>
+    <p id="text">Hello</p>
+    <button type="button" onclick="changeText()">No dawaj, kliknij mnie ( ‾ʖ̫‾) !</button>
+  </div>
+
+  <div class="func">
+    <p id="text_2">Powieksze sie!</p>
+    <button type="button" onclick="document.getElementById('text_2').style.fontSize='60px'">Resize Me!</button>
+
+  </div>
+  <div class="func">
+    <p id="text_21">Pomniejsze się!</p>
+    <button type="button" onclick="document.getElementById('text_21').style.fontSize='10px'">Pomniejszam Cie, na mocy posępnego czerepu!</button>
+
+  </div>
+  <div class="func">
+    <p id="text_3" style="display:none">Mmmm...( ͡° ͜ʖ ͡°) Show me your potato </p>
+    <button type="button" onclick="document.getElementById('text_3').style.display='block'">Show ME 
+    </button>
+  </div>
+
+  <div class="func">
+    <p>Add two numbers by Łakamafon</p>
+    <script>
+      document.write(1 + 1);
+    </script>
+  </div>
+
+  <div class="func">
+    <p>Display alert with result of ?+?</p>
+    <button onclick="displayResult()">Display alert</button>
+  </div>
+
+  <div class="func">
+    <p>Display console.log with result of 5+6</p>
+    <button onclick="consoleLog()">Display console.log</button>
+  </div>
+
+  <div class="func">
+    <p>Give me result</p>
+    <div id="text_4"></div>
+    <button onclick="funcWithStaticVariable()">Do it!</button>
+  </div>
+
+  <div class="func">
+    <p>Give me result with params</p>
+    <div id="text_5"></div>
+    <button onclick="funcWithVariable(2,4)">Do it!</button>
+  </div>
+
+  <div class="func">
+    <p>Display date</p>
+    <div id="text_8"></div>
+    <button onclick="date()">Do it!</button>
+  </div>
+
+  <div class="func">
+    <p>Length of text: ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+    <div id="text_9"></div>
+    <button onclick="textLength()">Do it!</button>
+  </div>
+
+  <div class="func">
+    <p>The indexOf() method returns the position of the first occurrence of a specified text:</p>
+
+    indexOf:
+    <p id="text_10"></p>
+    lastIndexOf
+    <p id="text_11"></p>
+
+    <script>
+      var str = "Please locate where 'locate' occurs!";
+      var pos = str.indexOf("locate");
+      var posLast = str.lastIndexOf("locate");
+      document.getElementById("text_10").innerHTML = pos;
+      document.getElementById("text_11").innerHTML = posLast;
+    </script>
+  </div>
+
+  <div class="func">
+    <p>Data from my first object</p>
+    <div id="text_6"></div>
+    <button onclick="myFirstObject()">Do it!</button>
+  </div>
+
+  <div class="func">
+    <p>Data from my second object</p>
+    <div id="text_7"></div>
+    <button onclick="mySecondObject()">Do it!</button>
+  </div>
+
+  <div class="func">
+    <p>Data from my ARRAY !</p>
+    <div id="text_12"></div>
+    <div id="text_13"></div>
+    <button onclick="myFirstAray()">Do it!</button>
+  </div>
+
+
+
+
+
+
+</body>
+
+</html>
